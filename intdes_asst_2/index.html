@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<img src="breadtalk_banner.png" width=100%>
+        <style>
+        body{
+            background-color: rgb(255, 255, 225);
+        }
+        .poppins-regular {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        p{
+            font-family:poppins; 
+            text-align: center;
+            font: weight 500px;
+        }
+        .bottom-banner{
+            width: 100%; 
+            margin-top: 60px;
+        }
+        h1{
+            text-align: center;
+            font-family:sans-serif;
+            font-weight: 800;
+            margin: auto;
+        }
+        .content-container{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .imagebox{
+            margin: 0 auto;
+            display: block;
+            background-image: url("sad_songsong_png.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 150px;
+            height: 150px;
+        }
+        .imagebox img{
+            display: none;
+        }
+
+        .imagebox:hover{
+            background-image: url("happy_songsong.png");
+        }
+        </style>
+        </head>
+        <body>
+            <div id="content" data-aos="fade-up" data-aos-duration="3000">
+            <h1 style="font-size: 8em;">404</h1>
+            <p style="font-size: 2em;"> <b>Oh no!</b> Song Song couldn't find the <br/>page you were looking for.</p>
+         <div class="content-container">
+            <p style="font-size: 2em;"><b>Click on Song Song</b> and he'll take you <br/> back to the Homepage!</p>
+            <a href="https://www.breadtalk.com.sg"><div class="imagebox"></div></a>
+        </div>
+            <img src="breadtalk_banner_bottom.png" class="bottom-banner">
+        </div>
+        <script>
+            AOS.init()
+        </script>
+        </body>
+</html>
